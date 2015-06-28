@@ -1,0 +1,12 @@
+同一スレッドで実行される
+
+実行結果
+----------------------------------
+Main method running : main
+Comparator running : main
+Comparator running : main
+Comparator running : main
+Comparator running : main
+a
+aa
+aaa
