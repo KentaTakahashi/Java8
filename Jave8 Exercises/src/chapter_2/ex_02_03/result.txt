@@ -1,0 +1,34 @@
+■考察
+並列化により、
+"Alice in Wonderland(約1万ワード)" → 0.84倍
+"War and Peace      (約58万ワード)" → 1.69倍
+"War and Peace x 10 (約580万ワード)" → 3.44倍
+"War and Peace x 100(約5800万ワード)" → 4.04倍
+となった。
+
+CPUは8スレッドなので、並列化による高速化上限は約8倍。
+扱うワード数が多いとこの理論値に近づくが、
+少なすぎると、スレッド分割/結果マージなどのオーバーヘッドにより逆に低速な処理となった。
+
+■実行環境
+OS	：Windows7 32bit
+CPU	：Core i7-2600( 4core 8thread)
+
+
+実行結果
+-------------------
+"Alice in Wonderland"  total words = 13157
+Normal Stream	88555 (nanoseconds)
+Parallel Stream	105045 (nanoseconds)
+
+"War and Peace"  total words = 576147
+Normal Stream	3164213 (nanoseconds)
+Parallel Stream	1869032 (nanoseconds)
+
+"War and Peace" x 10  total words = 5761470
+Normal Stream	51887501 (nanoseconds)
+Parallel Stream	15085351 (nanoseconds)
+
+"War and Peace" x 100  total words = 57614700
+Normal Stream	483735938 (nanoseconds)
+Parallel Stream	119827112 (nanoseconds)
