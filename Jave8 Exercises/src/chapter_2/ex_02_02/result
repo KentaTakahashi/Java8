@@ -1,0 +1,45 @@
+parallerStreamを使用すると5回以上filterメソッドが呼び出されるが、
+通常のstreamであれば、5回しか呼び出されない
+
+
+実行結果
+-------------------
+-----paraller Stream-----
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+called filter method
+inquisitively
+conversations
+conversations
+disappointment
+uncomfortable
+
+-----normal Stream-----
+called filter method
+conversations
+called filter method
+conversations
+called filter method
+disappointment
+called filter method
+inquisitively
+called filter method
+uncomfortable

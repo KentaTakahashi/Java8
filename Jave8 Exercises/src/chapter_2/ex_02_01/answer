@@ -1,0 +1,9 @@
+カウンターの原子性を保証するのが煩雑なため、
+単一カウンターを更新するためのスレッドを使用したくない
+
+
+実行結果
+-------------------
+Count = 26 As normal For
+Count = 26 As parallelStream
+Count = 26 As parallel For

@@ -1,0 +1,8 @@
+並列化により速度が60倍となった
+CPU：Core i7-2600( 4core 8thread)
+
+
+実行結果
+-------------------
+Normal Stream	97317296 (nanoseconds)
+Parallel Stream	1546482 (nanoseconds)

@@ -1,0 +1,10 @@
+拡張For文の場合、各ラムダ式で異なる値をキャプチャする
+
+従来For文はコンパイルエラーとなる"Local variable i defined in an enclosing scope must be final or effectively final"
+ただし、For文内の(実質ファイナルの)ローカル変数に置き換えればOK
+
+実行結果
+---------------
+Peter
+Paul
+Mary

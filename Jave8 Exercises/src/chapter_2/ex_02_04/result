@@ -1,0 +1,14 @@
+通常のStreamだと、配列自体を要素として認識している
+IntStreamを使うと狙い通りに格納できる
+
+
+実行結果
+
+--------use Normal Stream--------
+[I@4517d9a3:class [I
+
+--------use IntStream--------
+1
+4
+9
+16

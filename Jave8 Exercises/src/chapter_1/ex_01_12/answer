@@ -1,0 +1,6 @@
+仮にJava8以降にて、他のインターフェースにおいてもstreamメソッドがデフォルト実装と共に提供されたとする。
+さらにJava7以前で、上記インターフェースとCollectionインターフェース両方を実装しているクラスがあったとする。
+この場合、Java7以前であればもちろん問題ないが、Java8以降の環境だとデフォルトメソッドの競合によりコンパイルエラーとなる
+
+■エラーメッセージ
+"Duplicate default methods named stream with the parameters () and () are inherited from the types AtherStream<E> and Collection<E>"
