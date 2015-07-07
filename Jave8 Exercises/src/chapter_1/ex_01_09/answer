@@ -1,0 +1,13 @@
+例えば、文字列のコレクションに対し、任意の頭文字の要素のみを表示したい場合などに活用できる
+
+実行結果
+-------------forEach--------------
+Alice
+Bob
+Carol
+Dave
+Charlie
+Ellen
+-------------forEachIf startsWith("C")--------------
+Carol
+Charlie

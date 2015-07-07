@@ -1,0 +1,14 @@
+実行結果
+-------------------
+word length = 0      :1     count
+word length = 1      :729   count
+word length = 2      :2149  count
+word length = 3      :3213  count
+word length = 4      :2511  count
+word length = 5      :1528  count
+word length = 6      :1002  count
+word length = 7      :849   count
+word length = 8      :360   count
+word length = 9      :417   count
+word length = 10     :235   count
+word length = 11     :72    count
