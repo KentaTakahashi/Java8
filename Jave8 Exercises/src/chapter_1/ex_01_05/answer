@@ -1,0 +1,18 @@
+五行が一行になり、可読性も向上した
+
+修正前
+-------------------------------
+	//キャンセルボタンが押された場合、何も設定せずダイアログを閉じる
+    cancel_btn.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            setVisible(false);
+        }
+    });
+
+
+
+
+修正後
+-------------------------------
+    cancel_btn.addActionListener(e -> setVisible(false));

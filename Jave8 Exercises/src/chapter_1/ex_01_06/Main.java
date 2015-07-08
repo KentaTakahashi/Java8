@@ -11,12 +11,12 @@ public class Main{
     }
 
 	public static Runnable uncheck(RunnableEX runner) {
-		return new Thread(() -> {
+		return () -> {
 			try {
 				runner.run();
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-		});
+		};
 	}
 }
