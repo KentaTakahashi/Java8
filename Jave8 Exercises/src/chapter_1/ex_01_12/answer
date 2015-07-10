@@ -4,3 +4,13 @@
 
 ■エラーメッセージ
 "Duplicate default methods named stream with the parameters () and () are inherited from the types AtherStream<E> and Collection<E>"
+
+
+Sourec互換性
+→NG、戻り値が違うstreamが実装されているとダメ
+
+
+Binary互換性
+→OK、クラスファイルは戻り値含めて管理している
+
+Function互換性
