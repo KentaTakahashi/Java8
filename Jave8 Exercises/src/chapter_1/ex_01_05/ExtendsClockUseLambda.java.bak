@@ -90,6 +90,7 @@ public class ExtendsClockUseLambda extends Frame implements Runnable {
 
     public ExtendsClockUseLambda(String str) {
         setTitle(str);                          //Titleの設定
+
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
