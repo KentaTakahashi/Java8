@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="71.0" prefWidth="147.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter_4.ex_04_06.SampleController">
+   <top>
+      <Button mnemonicParsing="false" text="Top" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Button mnemonicParsing="false" text="Left " BorderPane.alignment="CENTER_LEFT" />
+   </left>
+   <center>
+      <Button alignment="CENTER" mnemonicParsing="false" text="Center" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <Button mnemonicParsing="false" text="Right" BorderPane.alignment="CENTER_LEFT" />
+   </right>
+   <bottom>
+      <Button mnemonicParsing="false" text="Bottom" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
