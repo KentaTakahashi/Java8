@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import chapter_4.ex_04_02.*?>
+
+<BorderPane prefHeight="302.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter_4.ex_04_02.SampleController">
+   <bottom>
+      <DelayTextField fx:id="delayTextField" text="Hello,javaFX" BorderPane.alignment="CENTER">
+      </DelayTextField>
+   </bottom>
+   <top>
+      <Label fx:id="textLabel" text="Hello,javaFX" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="100.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

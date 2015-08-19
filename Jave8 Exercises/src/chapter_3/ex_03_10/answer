@@ -1,0 +1,1 @@
+composeメソッドの戻り値の型がFunction<Color, Color>となり、transformの引数の型と異なるため
