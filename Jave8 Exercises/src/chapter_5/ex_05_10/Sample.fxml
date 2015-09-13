@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="226.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter_5.ex_05_10.SampleController">
+   <children>
+      <ComboBox fx:id="timezone1" layoutX="63.0" layoutY="14.0" prefHeight="23.0" prefWidth="388.0" promptText="timezone" AnchorPane.rightAnchor="11.0" />
+      <Label layoutX="-1.0" layoutY="18.0" text="leave" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="18.0" />
+      <Label layoutX="17.0" layoutY="93.0" text="ｆlight" />
+      <ComboBox fx:id="year1" layoutX="63.0" layoutY="44.0" prefHeight="23.0" prefWidth="110.0" promptText="年" />
+      <ComboBox fx:id="month1" layoutX="173.0" layoutY="44.0" prefHeight="23.0" prefWidth="69.0" promptText="月" />
+      <ComboBox fx:id="day1" layoutX="244.0" layoutY="44.0" prefHeight="23.0" prefWidth="69.0" promptText="日" />
+      <ComboBox fx:id="minute1" layoutX="382.0" layoutY="44.0" prefHeight="23.0" prefWidth="69.0" promptText="分" />
+      <ComboBox fx:id="hour1" layoutX="313.0" layoutY="44.0" prefHeight="23.0" prefWidth="69.0" promptText="時" />
+      <Button fx:id="ｃalcBtn" layoutX="211.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleButtonAction" text="計算" />
+      <ComboBox fx:id="hour" layoutX="313.0" layoutY="89.0" prefHeight="23.0" prefWidth="69.0" promptText="時間" />
+      <ComboBox fx:id="minute" layoutX="382.0" layoutY="89.0" prefHeight="23.0" prefWidth="69.0" promptText="分" />
+      <Label layoutX="17.0" layoutY="129.0" text="arrive" />
+      <ComboBox fx:id="timezone2" layoutX="60.0" layoutY="125.0" prefHeight="23.0" prefWidth="388.0" promptText="timezone" />
+      <Label fx:id="result" layoutX="60.0" layoutY="163.0" prefHeight="15.0" prefWidth="388.0" text="計算結果" />
+   </children>
+</AnchorPane>
